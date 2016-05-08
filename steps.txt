@@ -1,0 +1,4 @@
+criar os códigos:
+	touch figura_geometrica.py circulo.py quadrado.py
+criar os testes:
+	touch figura_geometrica_test.py circulo_test.py quadrado_test.py
