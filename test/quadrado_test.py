@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 
 from unittest import TestCase
-from python_test.quadrado import quadrado
+from python_test.quadrado import Quadrado
 
 class TestQuadrado(TestCase):
 
-	def setUp(TestCase):
+	def setUp(self):
 		TestCase.setUp(self)
 		self.fig = Quadrado()
 
@@ -18,7 +18,7 @@ class TestQuadrado(TestCase):
 
 	def test_get_perimetro(self):
 		self.fig.lado = 2
-		self.assertEqual(self.fig.get_perimetro(), 4)
+		self.assertEqual(self.fig.get_perimetro(), 8)
 		self.fig.lado = 5.0
-		self.assertEqual(self.fig.get_perimetro(), 10.0)
+		self.assertEqual(self.fig.get_perimetro(), 20.0)
 		#assertEqual vai comparar o resultado do get_perimetro com 10, tem q ser igual!
