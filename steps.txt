@@ -2,3 +2,7 @@ criar os códigos:
 	touch figura_geometrica.py circulo.py quadrado.py
 criar os testes:
 	touch figura_geometrica_test.py circulo_test.py quadrado_test.py
+
+Após criar o código do teste e consequentemente da classe, utilizo o setup para verificar os testes.
+Posterior à criação dos códigos de teste e da classe, terei a criação desse setup.
+para rodar: python setup.py test
